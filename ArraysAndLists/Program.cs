@@ -7,25 +7,25 @@ namespace ArraysAndLists
     {
         static void Main(string[] args)
         {
-            //TODO:
+            
 
-            // Create an int array and populate it with numbers 1-10
+            // Create an int array and populate it with numbers 1-10 (DONE)
             int[] numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 
-            /* Create a list of type int
+            /* Create a list of type int(DONE)
              * Name the list "evens"
              */
             List<int> evens = new List<int>();
 
 
-            /* Create another list of type int
+            /* Create another list of type int (DONE)
              * Name the list "odds"
              */
             List<int> odds = new List<int>();
 
 
-            /* Using either a foreach or for loop,
+            /* Using either a foreach or for loop,(DONE)
              * iterate through the array you populated with 10 numbers.
              * Inside the scope of the loop,
              * check to see if each number in the array is even or odd.
@@ -48,7 +48,7 @@ namespace ArraysAndLists
 
 
 
-            /* Using a foreach loop,
+            /* Using a foreach loop, (DONE)
              * display the numbers in your "evens" list
              */
             Console.WriteLine("The numbers in evens list are: ");
@@ -62,7 +62,7 @@ namespace ArraysAndLists
             
 
 
-            /* Using a for loop,
+            /* Using a for loop, (DONE)
              * display the numbers in your "odds" list
              */
             Console.WriteLine("The numbers in odds list are: ");
